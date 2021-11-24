@@ -15,6 +15,7 @@ func handle(array: [String], closure: (Int) -> Bool ) -> [String] {
         if closure(validYear) {
             returnStudent.append(student)
         }
+        /// / commit new 
     }
     return returnStudent
 }
@@ -31,10 +32,11 @@ func checkYearThird(year: Int) -> Bool {
     return year >= 36 && year <= 50
 }
 
+
 while (loop) {
     print("1 Add student",
           "\n2 Show all",
-          "\n3 Exit")
+          "\n3 Exit\n4 Cool")
     let typed = readLine()!
     switch typed {
     case "1":
